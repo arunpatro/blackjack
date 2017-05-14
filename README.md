@@ -10,8 +10,8 @@ Clone from the pywikibot library from wikimedia to  `blackjack`
 ```sh
 git clone https://gerrit.wikimedia.org/r/pywikibot/core.git blackjack
 cd blackjack
-git clone https://github.com/metakgp/blackjack.git
-mv blackjack/* .
+git remote add blackjack https://github.com/metakgp/blackjack.git
+git pull blackjack master
 ```
 
 Generate family files.
